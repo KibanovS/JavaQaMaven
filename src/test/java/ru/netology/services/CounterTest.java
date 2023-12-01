@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 public class CounterTest {
-    @Test
+    @org.testng.annotations.Test
     public void test() {
         Counter service = new Counter();
         int count = 0;
