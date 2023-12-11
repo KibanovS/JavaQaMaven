@@ -15,10 +15,8 @@ public class CounterTest {
 
         for (int m = 1; m < 13; m++) {
             if (money < thrshold) {
-                //System.out.println("Месяц " + (m) + ". Денег " + (money) + ". Придётся работать. Заработал " + income + ", потратил -" + (expenses));
                 money = money + income - expenses;
             } else {
-                //System.out.println("Месяц " + (m) + ". Денег " + (money) + ". Буду отдыхать. Потратил -" + expenses + ", затем еще -" + ((money ) / 3));
                 count++;
                 money = (money - expenses) / 3;
             }
